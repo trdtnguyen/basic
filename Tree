@@ -1,0 +1,19 @@
+# Tree Basic
+## Defination
+A tree is a data structure composed of nodes.
+- Each tree has a root node. The root node has no parent, zero or more children.
+- Each child node has zero or more child nodes and so on.
+- The leaf node has zero child.
+
+## Simple implementation
+```
+class Node {
+  void* data;
+  public Node[] children;
+}
+
+class Tree {
+  public Node root;
+}
+
+# Binary Tree
